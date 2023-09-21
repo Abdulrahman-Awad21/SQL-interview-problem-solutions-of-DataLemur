@@ -11,4 +11,3 @@ SELECT "Tableau"."id2" "candidate_id"
 LEFT JOIN candidates ccc on "Tableau"."id2" = ccc.candidate_id
 
 WHERE ccc.skill = 'PostgreSQL'
-
